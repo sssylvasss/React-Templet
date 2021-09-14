@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Table } from './components/Table.js';
 
 export const App = () => {
-  return (
-    <div>
-      Find me in src/app.js!
-    </div>
-  )
-}
+	return (
+		<div>
+			<Table />
+		</div>
+	);
+};
