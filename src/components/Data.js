@@ -19,8 +19,8 @@ export const Data = [
 
 	{
 		name: 'Group 3',
-		eNPS: 8.1,
-		leadership: 6.1,
+		eNPS: 0,
+		leadership: 7,
 		jobSatisfaction: 8.4,
 		meaningfullness: 10,
 	},
