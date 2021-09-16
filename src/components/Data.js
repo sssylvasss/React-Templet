@@ -1,6 +1,6 @@
 export const Data = [
 	{
-		name: 'Group 1',
+		id: 'Group 1',
 		total: 1,
 		eNPS: 2,
 		leadership: 3,
@@ -9,7 +9,7 @@ export const Data = [
 	},
 
 	{
-		name: 'Group 2',
+		id: 'Group 2',
 		total: 6,
 		eNPS: 7,
 		leadership: 8,
@@ -18,7 +18,8 @@ export const Data = [
 	},
 
 	{
-		name: 'Group 3',
+		id: 'Group 3',
+		// total: 2, Commented out to test the missing data ="?"
 		eNPS: 0,
 		leadership: 7,
 		jobSatisfaction: 8.4,

@@ -32,7 +32,7 @@ const getBgColor = (value) => {
 export const DataTable = () => {
 	return dataArray.map((data) => {
 		return (
-			<Main key={data.name}>
+			<Main key={data.id}>
 				<DataText color={getBgColor(data.total)}>
 					{data.total || data.total === 0 ? data.total : '?'}
 				</DataText>
